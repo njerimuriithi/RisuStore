@@ -1,34 +1,46 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-      <router-link to="products">Products</router-link> |
-          <router-link to="extensions">Extensions</router-link> |
-          <router-link to="bulbs">Bulbs</router-link> |
-            <router-link to="sola">Solar</router-link> |
-   
+  
+   <div class="border-b md:flex 
+   md:items-center 
+   md:justify-between p-4 pb-0 shadow-lg md:pb-4
+    bg-gradient-to-r from-blue-300 ">
+    <router-link to="/">Home</router-link>
+    <div class="list-reset md:flex md:items-center ">
+      <div class="md:ml-4">
+         <router-link 
+          class="block no-underline  py-2 text-grey-darkest  md:border-none md:p-0" to="extensions">
+          Extensions</router-link> 
+      </div>
+         <div class="md:ml-4">
+         <router-link 
+          class="block no-underline  py-2 text-grey-darkest  md:border-none md:p-0" to="solar">
+          Solar</router-link> 
+      </div>
+       <div class="md:ml-4">
+         <router-link 
+          class="block no-underline  py-2 text-grey-darkest  md:border-none md:p-0" to="bulbs">
+          Bulbs</router-link> 
+      </div>
+
+
+    </div>
   </div>
-  <router-view />
+
+    
+    
+   <router-view/>
+ 
+
 </template>
 
+<script>
+export default {
+  
+  }
+
+
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
