@@ -29,7 +29,7 @@
     
     
    <router-view/>
-   <MainPage/>
+
  
 
 </template>

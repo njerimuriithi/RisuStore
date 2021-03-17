@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <img class="w-100" src="../assets/background3.jpg">
+   
 <MainPage></MainPage>
   </div>
 </template>
