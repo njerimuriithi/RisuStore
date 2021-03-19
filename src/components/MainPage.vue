@@ -1,5 +1,5 @@
 <template >
-<div id="main" >
+<div>
 <h2>Our Services</h2>
 <p>We sell electrical and electronic products at very affordable prices
     at wholesale and retail price</p>
