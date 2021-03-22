@@ -3,7 +3,7 @@
    <div class="border-b md:flex 
    md:items-center 
    md:justify-between p-4 pb-0 shadow-lg md:pb-4
-    bg-gradient-to-r from-blue-300 ">
+   bg-gray-200 ">
     <router-link to="/">Home</router-link>
     <div class="list-reset md:flex md:items-center ">
       <div class="md:ml-4">
